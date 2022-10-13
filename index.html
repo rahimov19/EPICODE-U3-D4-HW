@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BINGO</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Let's play Bingo!</h1>
+    <div id="buttons">
+      <button onclick="randomizer()" id="randomButton">
+        Generate Random Number
+      </button>
+      <button onclick="fillBoard()" id="createBoardButton">Create Board</button>
+      <button
+        onclick="generateRandomNumberBoard()"
+        id="createPlayerBoardButton"
+      >
+        Create PLAYER Board
+      </button>
+    </div>
+    <div id="bingoBoard"></div>
+    <div id="playerBoard"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

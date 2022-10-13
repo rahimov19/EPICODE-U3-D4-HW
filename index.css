@@ -1,0 +1,42 @@
+.numberClass {
+  width: 73px;
+  aspect-ratio: 1/1;
+  text-align: center;
+  color: azure;
+  background-color: rgb(108, 4, 4);
+  display: inline-block;
+  border: 1px solid rgb(53, 0, 53);
+  font-size: 2em;
+  line-height: 200%;
+  border-radius: 4px;
+}
+#bingoBoard {
+  width: 50%;
+  margin-inline: auto;
+}
+h1 {
+  text-align: center;
+  color: darkblue;
+  margin-block: 2em;
+}
+#buttons {
+  text-align: center;
+  margin-bottom: 1em;
+}
+#playerBoard {
+  width: 50%;
+  margin-inline: auto;
+  margin-top: 4em;
+}
+.selectedNumberClass {
+  width: 73px;
+  aspect-ratio: 1/1;
+  text-align: center;
+  color: azure;
+  background-color: rgb(53, 0, 53);
+  display: inline-block;
+  border: 1px solid rgb(108, 4, 4);
+  font-size: 2em;
+  line-height: 200%;
+  border-radius: 4px;
+}
